@@ -6,3 +6,7 @@ pagina web para A&G
 - editar css para la funcionalidad de la seccion contactanos
 - incorporar funcionalidad a la seccion contactanos ( Action)
 - Cierre de detalles pendientes.
+
+# Franco:
+- Logo creado e incorporado
+- Logo de pestaña creado e incorporado
