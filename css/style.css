@@ -119,12 +119,23 @@ button:focus {
      outline: none;
 }
 
-ul,
-li,
-ol {
+ul,li,ol {
      margin: 0px;
      padding: 0px;
-     list-style: none;
+     color: #fff;
+}
+
+#servicios{
+     margin: 0px;
+     padding: 0px;
+     list-style-type: circle;
+     text-align: justify;
+     color: #fff;
+}
+
+#vacio{
+     list-style-type: circle;
+     color:transparent;
 }
 
 p {
