@@ -15,4 +15,5 @@ pagina web para A&G
 ## Trabajo en div de los clientes
 
 - subida de los logos de los clientes
+- cambio de los logos de los servicios
 
