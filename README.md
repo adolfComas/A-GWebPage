@@ -12,3 +12,7 @@ pagina web para A&G
 - Logo de pestaña creado e incorporado
 ## Trabajo en los servicios
 
+## Trabajo en div de los clientes
+
+- subida de los logos de los clientes
+
