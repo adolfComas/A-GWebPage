@@ -45,7 +45,7 @@
          <div class="header">
             <div class="container">
                <div class="row">
-                  <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col logo_section">
+                  <!-- <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col logo_section">
                      <div class="full">
                         <div class="center-desk">
                            <div class="logo">
@@ -53,9 +53,9 @@
                            </div>
                         </div>
                      </div>
-                  </div>
-                  <div class="col-xl-9 col-lg-9 col-md-9 col-sm-9">
-                     <nav class="navigation navbar navbar-expand-md navbar-dark ">
+                  </div> -->
+                  <div class="col-xl-9 col-lg-9 col-md-9 col-sm-9" id="ajHead">
+                     <nav class="navigation navbar navbar-expand-md navbar-dark">
                         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample04" aria-controls="navbarsExample04" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                         </button>
@@ -88,11 +88,19 @@
          <div class="container">
             <div class="row d_flex">
                <div class="col-md-5">
-                  <div class="text-bg">
-                     <h1>A&G<br>Servicios de Ingenier&iacutea</h1>
-                     <span>Exteperiencia 2019 2020</span>
-                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud </p>
-                     <a href="#">Ver mas ...</a>
+                  <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col logo_section">
+                     <div class="full">
+                        <img src="images/logo270X384.png" alt="#" />
+                     </div>
+                  </div>
+                  <div class="logoLetras">
+                     <img id="imgLogo" src="images/A&GLetras.png">
+                  </div>
+                  <div class="text-bg" id="alingTexto">
+                     <!-- <h1>A&G<br>Servicios de Ingenier&iacutea</h1> -->
+                     <span>Caminando hacia nuestro futuro</span>
+                     <p>Esperamos consolidarnos como empresa siendo un referente a nivel nacional en los sistemas de protecci&oacuten contra incendios, seguridad electr&oacutenica, electricidad y automatizaci&oacuten de procesos.</p>
+                     <!-- <a href="#">Ver mas ...</a> -->
                   </div>
                </div>
                <div class="col-md-7">
@@ -117,12 +125,12 @@
             <div class="row">
                <div class="col-md-12">
                   <div class="web_hosting">
-                     <figure><img  src="images/imgHosting.jpg" alt="#"/></figure>
-                     <p> Una empresa enfocada principalmente en trabajos de protecci&oacuten contra incendios, seguridad electr&oacutenica, electricidad y tambi&eacuten contamos con una basta experiencia en automatizac&oacuten de procesos.
+                     <figure><img src="images/imgHosting.jpg" alt="#"/></figure>
+                     <p> Somos una empresa enfocada principalmente en trabajos de protecci&oacuten contra incendios, seguridad electr&oacutenica y electricidad, a su vez contamos con una basta experiencia en automatizac&oacuten de procesos.<br>
 
-                        Para esto ofrecemos productos y servicios de alta exigencia, eficiencia y calidad con soluciones tecnológicas y personal altamente calificado.
+                        Para un eficaz y eficiente desarrollo de nuestros trabajos, ofrecemos productos y servicios de alta exigencia, eficiencia y calidad con soluciones tecnológicas y colaboradores altamente calificado.
                         </p>
-                     <a href="#">Ver m&aacutes ...</a>
+                     <a href="#">ORIGEN</a>
                   </div>
                </div>
             </div>
@@ -136,36 +144,35 @@
                <div class="col-md-12">
                   <div class="titlepage wow zoomIn" data-wow-delay=".1s">
                      <h2>Nuestros Servicios</h2>
-                     <p>Lorem ipsum dolor sittem ametamngcing elit, per sed do eiusmoad <br>
-                        teimpor sittem elit inuning ut sed.
+                     <p>Presentamos los servicios que tenemos a disposici&oacuten de nuestros clientes <br>
+                        empleando el mejor equipo de colaboradores y materiales de la mejor calidad.
                      </p>
                   </div>
                </div>
             </div>
             <div class="row" >
+               <!-- servicio 1 -->
                <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 wow zoomIn" data-wow-delay=".3s">
                      <div class="Services-box">
-                        <i style="padding-left: 7px;padding-top: 11px;"><img src="images/servicios/servicio1.png" alt="#" /></i>
-                        <!-- servicio 1 -->
+                        <i id="servUno"><img src="images/servicios/servicio1.png"/></i>
                         <h3> Protecci&oacuten Contra Incendios - Sistemas de Detecci&oacuten y Alarmas</h3>
                         <p>
-                           <ul id="servicios">
+                           <ul id="texto-servicio-uno">
                               <li>Diseño, suministro, instalaci&oacuten y mantenimiento de sistemas de detecci&oacuten de incendios bajo normas y est&aacute NFPA.</li>
                               <li>Tegnologia avanzada para un aviso oportuno.</li>
                               <li>Sistemas de audio evacuaci&oacuten integrado, que permiten una mejor informaci&oacuten y mayor agilizaci&oacuten de evacuaciones.</li>
                               <li>Sistemas de tipo direccionables, convencional, detecci&oacuten y alerta temprana mediante aspiraci&oacuten y del tipo de temperatura lineal (protectowire).</li>
-                              <li id="vacio"></li>
                            </ul>
                         </p>
                      </div>
                </div>
+               <!-- servicio 2 -->
                <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 wow zoomIn" data-wow-delay=".3s">
                   <div class="Services-box">
-                     <i style="padding-left: 7px;padding-top: 7px;"><img src="images/servicios/servicio2.png" alt="#" /></i>
-                     <!-- servicio 2 -->
+                     <i id="servDos"><img src="images/servicios/servicio2.png"/></i>
                      <h3>Protecci&oacuten Contra Incendios - Sistemas de Extinci&oacuten de Incendios</h3>
                      <p>
-                        <ul id="servicios">
+                        <ul id="texto-servicio-dos">
                            <li>Diseño, suministro, instalaci&oacuten y mantenimiento de sistemas de extinci&oacuten de incendios.</li>
                            <li>Sistemas salas de bomba contra incendios.</li>
                            <li>Sistemas de rociadores autom&aacuteticos.</li>
@@ -176,13 +183,13 @@
                      </p>
                   </div>
                </div>
+               <!-- servicio 3 -->
                <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 wow zoomIn" data-wow-delay=".3s">
                   <div class="Services-box">
-                     <i style="padding-top: 19px;"><img src="images/servicios/servicio3.png" alt="#" /></i>
-                     <!-- servicio 3 -->
+                     <i id="servTres"><img src="images/servicios/servicio3.png"/></i>
                      <h3>Protecci&oacuten Contra Incendios - Sistemas de Extinci&oacuten de incendios base a Agua</h3>
                      <p>
-                        <ul id="servicios">
+                        <ul id="texto-servicio-tres">
                            <li>Diseño, suministro, instalaci&oacuten y mantenimiento de sistemas de extinci&oacuten de incendios.</li>
                            <li>Sistemas salas de bomba contra incendios.</li>
                            <li>Sistema de rociadores autom&aacuteticos.</li>
@@ -190,66 +197,57 @@
                            <li>Hidrantes, monitores autom&aacuteticos, grifos y samesas</li>
                            <li>Sistemas de gabinetes de mangeras r&iacutegidas, colapsables e industriales</li>
                            <li>Sistemas de extinci&oacuten en base a espuma</li>
-                           <li id="vacio"></li>
-                           <li id="vacio"></li>
                         </ul>
                      </p>
                   </div>
                </div>
+               <!-- servicio 4 -->
                <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 wow zoomIn" data-wow-delay=".5s">
                   <div class="Services-box">
-                     <i style="padding-top: 23px;padding-right: 2px;"><img src="images/servicios/servicio4.png" alt="#" /></i>
-                     <!-- servicio 4 -->
+                     <i id="servCuatro"><img src="images/servicios/servicio4.png"/></i>
                      <h3>Seguridad Electr&oacutenica - CCTV</h3>
                      <p>
-                        <ul id="servicios">
+                        <ul id="texto-servicio-cuatro">
                            <li>Visualizaci&oacute en tiempo real en &aacutereas de operaci&oacuten, almacenaje, insfraestructuras, entre otros.</li>
                            <li>Grabaci&oacuten por per&iacutedodos definidos, indefinidos, movimientos o anal&iacutesticas especificadas por el cliente para revisar la actividad de un sector determinado.</li>
                            <li>Permite monitoreo remoto desde tel&eacutefonos m&oacuteviles, tablet o computador personal a trav&eacutes de internet.</li>
                            <li>Sistemas an&aacutelogos, IP e inal&aacutembricos.</li>
                            <li>Integraci&oacuten con sistemas remotos, control de acceso y/o control centralizado BMS.</li>
-                           <li id="vacio"></li>
                         </ul>
                      </p>
                   </div>
                </div>
+               <!-- servicio 5 -->
                <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 wow zoomIn" data-wow-delay=".5s">
                   <div class="Services-box">
-                     <i><img src="images/servicios/servicio5.png" alt="#" /></i>
-                     <!-- servicio 5 -->
+                     <i id="servCinco"><img src="images/servicios/servicio5.png"/></i>
                      <h3>Seguridad Electr&oacutenica - Sistema de Control de Acceso</h3>
                      <p>
-                        <ul id="servicios">
+                        <ul id="texto-servicio-cinco">
                            <li>Control de acceso a zonas restringidas.</li>
                            <li>Control de acceso vehicular mediante sistema Tag, lectura de PPU, proximidad, entre otros.</li>
                            <li>Soluciones integrables a control centralizado, BMS y CCTV.</li>
                            <li>Diversidad de soluciones adaptables a cada requerimiento ya sea de proximidad, biom&eacutetrico, torniquetes, contraseña, esclusas, entre otras.</li>
-                           <li id="vacio"></li>
-                           <li id="vacio"></li>
-                           <li id="vacio"></li>
-                           <li id="vacio"></li>
-                           <li id="vacio"></li>
                         </ul>
                      </p>
                   </div>
                </div>
+               <!-- servicio 6 -->
                <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 wow zoomIn" data-wow-delay=".5s">
                   <div class="Services-box">
-                     <i style="padding-top: 9px;"><img src="images/servicios/servicio6.png" alt="#" /></i>
-                     <!-- servicio 6 -->
+                     <i id="servSeis"><img src="images/servicios/servicio6.png"/></i>
                      <h3>Seguridad Electr&oacutenica - Sistema de alarma e instrusi&oacuten</h3>
                      <p>
-                        <ul id="servicios">
+                        <ul id="texto-servicio-seis">
                            <li>Estos sistemas permiten detectar la presencia de intrusos mediante una gran variedad de productos (sensores de puerta y ventanas, detector de sonidos, sensor de movimiento, entre muchos otros) de acuerdo a la necesidad en particular.</li>
                            <li>Notificaci&oacuten en tiempo real v&iacutea app, llamada, mensaje de texto o correo electr&oacutenico.</li>
                            <li>Soluci&oacuten integrable con sistemas de control de acceso, BMS y CCTV.</li>
                            <li>Gran variedad de soluciones mediante tecnolog&iacuteas de bus e inal&aacutembricas seg&uacuten sea la necesidad.</li>
-                           <li id="vacio"></li>
                         </ul>
                      </p>
                   </div>
                </div>
-               <a class="read_more wow zoomIn" data-wow-delay=".2s" href="#">Ver mas ...</a>
+               <a class="read_more wow zoomIn" data-wow-delay=".2s" href="#">ORIGEN</a>
             </div>
          </div>
       </div>
@@ -260,64 +258,64 @@
             <div class="row">
                <div class="col-md-12">
                   <div class="titlepage wow zoomIn" data-wow-delay=".2s">
-                     <h2>Nuestros Clientes</h2>
-                     <!-- <p>making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still </p> -->
+                     <h2>Proveedores de Equipos</h2>
+                     <p>Exelentes proveedores, buenos equipos, trabajos de calidad</p>
                   </div>
                </div>
             </div>
             <div class="row">
                <!-- BOSCH -->
                <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 wow zoomIn" data-wow-delay=".3s">
-                  <div id="box_ho" class="why-box">
-                     <i><img src="images/clientes/bosch.png" alt="#" /></i>
+                  <div class="why-box">
+                     <i><a href="https://www.bosch-home.cl/" target="_blank"><img id="bosch" src="images/clientes/bosch.png"/></a></i>
                   </div>
                </div>
                <!-- EDWARDS -->
                <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 wow zoomIn" data-wow-delay=".5s">
-                  <div class="why-box" style="padding-bottom: 42px;">
-                     <i><img src="images/clientes/edwards.png" style="padding-top: 15px;" alt="#" /></i>
+                  <div class="why-box">
+                     <i><a href="https://www.edwardsfiresafety.com/" target="_blank"><img id="edwards" src="images/clientes/edwards.png"/></a></i>
                   </div>
                </div>
                <!-- HIKVISION -->
                <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 wow zoomIn" data-wow-delay=".7s">
-                  <div class="why-box" style="padding-bottom: 52px;">
-                     <i><img src="images/clientes/hikvision.png" style="padding-top: 25px;" alt="#" /></i>
+                  <div class="why-box">
+                     <i><a href="https://www.hikvision.com/ES-LA/" target="_blank"><img id="hikvision" src="images/clientes/hikvision.png"/></a></i>
                   </div>
                </div>
                <!-- INIM -->
                <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 wow zoomIn" data-wow-delay=".7s">
                   <div class="why-box">
-                     <i><img src="images/clientes/inim.png" alt="#" /></i>
+                     <i><a href="https://www.inim.biz/es" target="_blank"><img src="images/clientes/inim.png"/></a></i>
                   </div>
                </div>
                <!-- NOTIFIER -->
                <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 wow zoomIn" data-wow-delay=".7s">
-                  <div class="why-box" style="padding-bottom: 69px;">
-                     <i><img src="images/clientes/notifier.png" style="padding-top: 40px;" alt="#" /></i>
+                  <div class="why-box">
+                     <i><a href="https://www.notifier.es/" target="_blank"><img id="notifier" src="images/clientes/notifier.png"/></a></i>
                   </div>
                </div>
                <!-- ROSSLARE -->
                <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 wow zoomIn" data-wow-delay=".7s">
-                  <div class="why-box" style="padding-bottom: 77px;">
-                     <i><img src="images/clientes/rosslare.png" style="padding-top: 55px;" alt="#" /></i>
+                  <div class="why-box">
+                     <i><a href="http://www.rosslaresecurity.com/" target="_blank"><img id="rosslare" src="images/clientes/rosslare.png"/></a></i>
                   </div>
                </div>
                <!-- SIMPLEX -->
                <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 wow zoomIn" data-wow-delay=".7s">
-                  <div class="why-box" style="padding-bottom: 43px;">
-                     <i><img src="images/clientes/simplex.png" style="padding-top: 20px;" alt="#" /></i>
+                  <div class="why-box">
+                     <i><a href="https://simplex-fire.com/en/us/Pages/default.aspx" target="_blank"><img id="simplex" src="images/clientes/simplex.png"/></a></i>
                   </div>
                </div>
                <!-- UNIVIEW -->
                <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 wow zoomIn" data-wow-delay=".7s">
                   <div class="why-box">
-                     <i><img src="images/clientes/uniview.png" alt="#" /></i>
+                     <i><a href="https://www.uniview.com/" target="_blank"><img src="images/clientes/uniview.png"/></a></i>
                   </div>
                </div>
                <!-- ZKTECO -->
                <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 wow zoomIn" data-wow-delay=".7s">
-                  <div class="why-box" style="padding-bottom: 42px;">
-                     <i><img src="images/clientes/zkteco.png" style="padding-top: 15px;" alt="#" /></i>
+                  <div class="why-box">
+                     <i><a href="https://www.zktecolatinoamerica.com/" target="_blank"><img id="zkteco" src="images/clientes/zkteco.png"/></a></i>
                   </div>
                </div>
             </div>

@@ -125,19 +125,6 @@ ul,li,ol {
      color: #fff;
 }
 
-#servicios{
-     margin: 0px;
-     padding: 0px;
-     list-style-type: circle;
-     text-align: justify;
-     color: #fff;
-}
-
-#vacio{
-     list-style-type: circle;
-     color:transparent;
-}
-
 p {
      margin: 0px;
      font-weight: 300;
@@ -339,6 +326,19 @@ button {
      font-weight: bold;
 }
 
+.logoLetras {
+     font-size: 60px;
+     line-height: 80px;
+     padding-bottom: 25px;
+     margin-right: -40px;
+}
+
+#imgLogo{
+     padding-top: 60px;
+     padding-right: -30px;
+     padding-left: 15px;
+}
+
 .text-bg span {
      color: #fdd430;
      font-size: 40px;
@@ -346,11 +346,15 @@ button {
      font-weight: bold;
 }
 
+#alingTexto{
+     padding-top: 60px;
+}
+
 .text-bg p {
      color: #fff;
      font-size: 17px;
      line-height: 28px;
-     padding: 40px 0;
+     padding: 0;
 }
 
 .text-bg a {
@@ -391,6 +395,9 @@ button {
      padding: 0;
 }
 
+#ajHead{
+     margin-left: 271px;
+}
 
 /** Hosting section **/
 
@@ -521,6 +528,79 @@ button {
      color: #fff;
 }
 
+#servUno{
+     padding-left: 7px;
+     padding-top: 11px;
+}
+#texto-servicio-uno{
+     padding-bottom: 25px;
+     margin: 0px;
+     padding: 0px;
+     list-style-type: circle;
+     text-align: justify;
+     color: #fff;
+     padding-bottom: 25px;
+}
+
+#servDos{
+     padding-top: 7px;
+     padding-left: 7px;
+}
+#texto-servicio-dos{
+     margin: 0px;
+     padding: 0px;
+     list-style-type: circle;
+     text-align: justify;
+     color: #fff;
+}
+
+#servTres{
+     padding-top: 19px;
+     padding-right: 1px;
+}
+#texto-servicio-tres{
+     margin: 0px;
+     padding: 0px;
+     list-style-type: circle;
+     text-align: justify;
+     color: #fff;
+     padding-bottom: 50px;
+}
+
+#servCuatro{
+     padding-top: 23px;
+     padding-right: 2px;
+}
+#texto-servicio-cuatro{
+     margin: 0px;
+     padding: 0px;
+     list-style-type: circle;
+     text-align: justify;
+     color: #fff;
+}
+
+
+#texto-servicio-cinco{
+     margin: 0px;
+     padding: 0px;
+     list-style-type: circle;
+     text-align: justify;
+     color: #fff;
+     padding-bottom: 100px;
+}
+
+#servSeis{
+     padding-top: 9px;
+}
+#texto-servicio-seis{
+     margin: 0px;
+     padding: 0px;
+     list-style-type: circle;
+     text-align: justify;
+     color: #fff;
+}
+
+
 
 /** end Services section **/
 
@@ -558,11 +638,44 @@ button {
      text-align: center;
      background-color: transparent;
      border-radius: 20px;
-     padding: 40px 20px 20px 40px;
+     padding: 10px 20px 20px 20px;
      transition: ease-in all 0.5s;
-     margin-bottom: 30px;
+     margin-bottom: 20px;
      box-shadow: #ddd 0px 0px 10px;
-     
+}
+
+#edwards{
+     margin-top: 20px;
+     padding-bottom: 15px;
+     padding-top: 5px;
+}
+
+#hikvision{
+     margin-top: 10px;
+     padding-bottom: 25px;
+     padding-top: 25px;
+}
+
+#notifier{
+     margin-top: 30px;
+     padding-top: 25px;
+     padding-bottom: 40px;
+}
+
+#rosslare{
+     margin-top: 35px;
+     padding-bottom: 45px;
+     padding-top: 35px;
+}
+
+#simplex{
+     margin-top: 30px;
+     padding-bottom: 15px;
+}
+
+#zkteco{
+     margin-top: 25px;
+     padding-bottom: 12px;
 }
 
 .why .why-box p {
@@ -594,7 +707,6 @@ button {
      background: #8308eb;
      color: #fff;
 }
-
 
 /** end why section **/
 
