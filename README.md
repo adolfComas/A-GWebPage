@@ -1,10 +1,7 @@
 # A-GWebPage
 pagina web para A&G
-- Falta aun Modificar Logo
-- Terminar configuracion de Transiciones
-- Modificar imagenes a utilizar dentro de la pagina
-- editar css para la funcionalidad de la seccion contactanos
-- incorporar funcionalidad a la seccion contactanos ( Action)
+- Falta aun Modificar Logo de las letras
+- Ajustar logo de las letras centralizado.
 - Cierre de detalles pendientes.
 
 # Franco:
