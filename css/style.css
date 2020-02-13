@@ -366,7 +366,7 @@ button {
 .text-bg a {
      font-size: 16px;
      background-color: #fff;
-     color: #000;
+     color: #0c0f38;
      padding: 10px 0px;
      width: 100%;
      max-width: 190px;
@@ -376,7 +376,7 @@ button {
 }
 
 .text-bg a:hover {
-     background-color: #000;
+     background-color: #0c0f38;
      color: #fff;
 }
 
@@ -428,7 +428,7 @@ button {
 
 .web_hosting a {
      font-size: 16px;
-     background-color: #000;
+     background-color: #0c0f38;
      color: #fff;
      padding: 10px 0px;
      width: 100%;
@@ -441,7 +441,7 @@ button {
 }
 
 .web_hosting a:hover {
-     background-color: #000;
+     background-color: #0c0f38;
      color: #fff;
 }
 
@@ -454,7 +454,7 @@ button {
 .Services {
      margin-top: 90px;
      padding: 60px 0;
-     background: #000;
+     background: #0c0f38;
      font-family: Poppins;
 }
 
@@ -518,7 +518,7 @@ button {
 .read_more {
      font-size: 16px;
      background-color: #fff;
-     color: #000;
+     color: #0c0f38;
      padding: 10px 0px;
      width: 100%;
      max-width: 190px;
@@ -697,7 +697,7 @@ button {
 
 .bg {
      font-size: 16px;
-     background-color: #000;
+     background-color: #0c0f38;
      color: #fff;
      padding: 10px 0px;
      width: 100%;
@@ -725,7 +725,7 @@ button {
 }
 
 .main_form {
-     background: #000;
+     background: #0c0f38;
      padding: 55px 55px;
      border-radius: 30px;
      margin-bottom: -58%;
@@ -790,7 +790,7 @@ button {
 
 .footer {
      font-family: Poppins;
-     background: #000;
+     background: #0c0f38;
 }
 
 .cont {
