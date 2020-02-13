@@ -288,6 +288,10 @@ button {
      color: #fdd430;
 }
 
+#logoUbicacion{
+     margin-left: 80px;
+}
+
 
 /*-- header area --*/
 
@@ -315,7 +319,7 @@ button {
      background: #0c0f38;
      background-size: 100% 100%;
      background-repeat: no-repeat;
-     padding-bottom: 90px;
+     padding-bottom: 50px;
 }
 
 .text-bg h1 {
@@ -331,12 +335,12 @@ button {
      line-height: 80px;
      padding-bottom: 25px;
      margin-right: -40px;
+     max-width: 80%;
 }
 
 #imgLogo{
-     padding-top: 60px;
-     padding-right: -30px;
-     padding-left: 15px;
+     margin-top: -31px;
+     margin-left: 25px;
 }
 
 .text-bg span {
@@ -347,7 +351,8 @@ button {
 }
 
 #alingTexto{
-     padding-top: 60px;
+     padding-top: 30px;
+     text-align: center;
 }
 
 .text-bg p {
@@ -355,6 +360,7 @@ button {
      font-size: 17px;
      line-height: 28px;
      padding: 0;
+     margin-top: 20px;
 }
 
 .text-bg a {
@@ -402,7 +408,7 @@ button {
 /** Hosting section **/
 
 .hosting {
-     padding-top: 90px;
+     padding-top: 50px;
 }
 
 .web_hosting {
